@@ -1,0 +1,256 @@
+/*registration*/
+body {
+    font-family: Arial, sans-serif;
+    
+    padding: 10px;
+  }
+  
+  .container {
+   
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  input[type="password"] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.5s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  input[type="button"] {
+    border: none;
+    color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.5s;
+    
+  }
+  
+  input[type="button"]:hover {
+    background-color: #f5f5f5;
+  }
+
+
+
+/*main page*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Login container */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Login form */
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+
+/* Button styles */
+.btn-signin, .btn-login {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-signin:hover, .btn-login:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+
+/*navbar*/
+/* Resetting defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing:  content-box;
+  }
+
+/* Navbar styles */
+.navbar {
+  background-color: blue;
+  color: #fff;
+  padding: 10px 0;
+  height: 37px;
+  
+}
+
+.container1 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+ 
+  
+}
+
+.logo {
+  background-image: url('logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 50px;
+  position: relative;
+  right: 50%;
+  margin-top: -5px; 
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 15px;
+}
+
+.nav-links li a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00;
+}
+
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px;
+}
+
+.product-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  width: calc(33.333% - 20px);
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.product-card h2 {
+  margin: 10px 0;
+}
+
+.product-card p {
+  margin-bottom: 10px;
+}
+
+.product-card button {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  padding: 10px 10px;
+  text-transform: uppercase;
+  pointer-events: all;
+}
+
+.product-card button :hover {
+  background-color: #3e8e41;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+footer p {
+  margin: 0;
+}

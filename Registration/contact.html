@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" class="weblogo">
+            </div>
+            <div class="navbar">
+                <a class="menu" href="home.php">Home</a>
+                <a class="menu" href="about.html">About</a>
+                <a class="menu" href="contact.html">Contact</a>
+                <a class="menu" href="shoes.php">Shoes</a>
+                <a class="menu" href="watch.php">Watch</a>
+                <a href="logout.php">Logout</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-container">
+            <h2>Contact Us</h2>
+            <p>We would love to hear from you! Please fill out the form below to get in touch with our team.</p>
+            <form action="contact.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" name="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Shoe Company</p>
+    </footer>
+
+</body>
+</html>
